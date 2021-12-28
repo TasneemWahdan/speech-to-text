@@ -1,0 +1,12 @@
+[27-Dec-2021 11:06:45 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Yoast\WP\SEO\Generators\Breadcrumbs_Generator::Yoast\WP\SEO\Generators\{closure}() must be an instance of Yoast\WP\SEO\Models\Indexable, bool given in /home3/medevent/public_html/speech-recognition/wp-content/plugins/wordpress-seo/src/generators/breadcrumbs-generator.php:141
+Stack trace:
+#0 [internal function]: Yoast\WP\SEO\Generators\Breadcrumbs_Generator->Yoast\WP\SEO\Generators\{closure}(false)
+#1 /home3/medevent/public_html/speech-recognition/wp-content/plugins/wordpress-seo/src/generators/breadcrumbs-generator.php(168): array_map(Object(Closure), Array)
+#2 /home3/medevent/public_html/speech-recognition/wp-content/plugins/wordpress-seo/src/presentations/indexable-presentation.php(749): Yoast\WP\SEO\Generators\Breadcrumbs_Generator->generate(Object(Yoast\WP\SEO\Context\Meta_Tags_Context))
+#3 /home3/medevent/public_html/speech-recognition/wp-content/plugins/wordpress-seo/src/presentations/abstract-presentation.php(64): Yoast\WP\SEO\Presentations\Indexable_Presentatio in /home3/medevent/public_html/speech-recognition/wp-content/plugins/wordpress-seo/src/generators/breadcrumbs-generator.php on line 141
+[27-Dec-2021 11:07:11 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Yoast\WP\SEO\Generators\Breadcrumbs_Generator::Yoast\WP\SEO\Generators\{closure}() must be an instance of Yoast\WP\SEO\Models\Indexable, bool given in /home3/medevent/public_html/speech-recognition/wp-content/plugins/wordpress-seo/src/generators/breadcrumbs-generator.php:141
+Stack trace:
+#0 [internal function]: Yoast\WP\SEO\Generators\Breadcrumbs_Generator->Yoast\WP\SEO\Generators\{closure}(false)
+#1 /home3/medevent/public_html/speech-recognition/wp-content/plugins/wordpress-seo/src/generators/breadcrumbs-generator.php(168): array_map(Object(Closure), Array)
+#2 /home3/medevent/public_html/speech-recognition/wp-content/plugins/wordpress-seo/src/presentations/indexable-presentation.php(749): Yoast\WP\SEO\Generators\Breadcrumbs_Generator->generate(Object(Yoast\WP\SEO\Context\Meta_Tags_Context))
+#3 /home3/medevent/public_html/speech-recognition/wp-content/plugins/wordpress-seo/src/presentations/abstract-presentation.php(64): Yoast\WP\SEO\Presentations\Indexable_Presentatio in /home3/medevent/public_html/speech-recognition/wp-content/plugins/wordpress-seo/src/generators/breadcrumbs-generator.php on line 141
